@@ -54,6 +54,32 @@ body {
 .logo {
   width: 500px;
   left: 50%;
+  top: 50%;
   position: absolute;
-  margin: 75px 0 0 -250px;
+  margin: -250px 0 0 -250px;
 }
+
+ul.social-icons {
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+  width: 100%;
+}
+
+ul.social-icons li {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+ul.social-icons li:last-child {
+  margin: 0;
+}
+
+ul.social-icons li a {
+  color: #3398CB;
+}
+
+ul.social-icons li a:hover {
+  color: #FAD905;
+}
+
