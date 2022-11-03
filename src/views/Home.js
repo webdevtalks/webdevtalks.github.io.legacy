@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar';
 
 function Home() {
   return (
-    <>
+    <div className="home">
       <NavBar />
       <img src={logo} className="logo" alt="Logo WDT" />
       <ul className="social-icons">
@@ -27,7 +27,7 @@ function Home() {
           <a href="mailto:contacto@webdevtalks.mx" target="_blank"><i className="fa fa-envelope-o fa-4x" aria-hidden="true"></i></a>
         </li>
       </ul>
-    </>
+    </div>
   );
 }
 

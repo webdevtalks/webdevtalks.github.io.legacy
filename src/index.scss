@@ -3,25 +3,14 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -48,16 +37,19 @@ table {
 }
 
 body {
-  background: #333;
+  background: white;
 }
 
-.logo {
-  width: 500px;
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  margin: -250px 0 0 -250px;
+.home {
+  .logo {
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -250px 0 0 -250px;
+  }
 }
+
 
 ul.social-icons {
   position: absolute;
@@ -76,11 +68,11 @@ ul.social-icons li:last-child {
 }
 
 ul.social-icons li a {
-  color: #3398CB;
+  color: #424949;
 }
 
 ul.social-icons li a:hover {
-  color: #FAD905;
+  color: #3398CB;
 }
 
 nav {
@@ -89,22 +81,77 @@ nav {
 }
 
 nav ul {
+  margin-top: 0;
   margin-left: auto;
 }
 
 nav ul li {
  display: inline-block;
- height: 100%;
 }
 
 nav ul li:hover {
   background-color: #3398CB;
+  a {
+    color: white;
+  }
 }
 
 nav ul li a {
   padding: 10px;
-  color: white;
+  color: #333;
   font-family: sans-serif;
   text-decoration: none;
   line-height: 40px;
+}
+
+a {
+  color: #3398CB;
+}
+
+.sponsorship {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .logo {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  section {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    p {
+      text-align: justify;
+    }
+  }
+  table {
+    width: 100%;
+  }
+  table, th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 10px;
+    width: 50%;
+  }
+  thead {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .chart-wrapper {
+    display: flex;
+    justify-content: center;
+    .chart {
+      width: 50%;
+    }
+  }
 }

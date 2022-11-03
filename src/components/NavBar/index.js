@@ -8,9 +8,9 @@ function NavBar() {
           <li>
             <a href="/sponsorship">¿Te interesa patrocinar?</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/about">Acerca de WDT</a>
-          </li>
+          </li> */}
         </ul>
     </nav>
   )
