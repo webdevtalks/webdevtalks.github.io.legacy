@@ -5,15 +5,15 @@ import About from './views/About';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/webdevtalks.github.io/",
     element: <Home />,
   },
   {
-    path: 'sponsorship',
+    path: '/webdevtalks.github.io/sponsorship',
     element: <Sponsorship />
   },
   {
-    path: 'about',
+    path: '/webdevtalks.github.io/about',
     element: <About />
   }
 ]);
