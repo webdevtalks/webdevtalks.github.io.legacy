@@ -3,13 +3,13 @@ function NavBar() {
     <nav>
         <ul>
           <li>
-            <a href="/webdevtalks.github.io/">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/webdevtalks.github.io/sponsorship">¿Te interesa patrocinar?</a>
+            <a href="/sponsorship">¿Te interesa patrocinar?</a>
           </li>
           <li>
-            <a href="/webdevtalks.github.io/about">Acerca de WDT</a>
+            <a href="/about">Acerca de WDT</a>
           </li>
         </ul>
     </nav>
