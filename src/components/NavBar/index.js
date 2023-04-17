@@ -13,7 +13,7 @@ function NavBar() {
           <a href="/sponsorship">¿Te interesa patrocinar?</a>
         </li>
         <li>
-          <a href="/" onClick={openSurvey}>Survey</a>
+          <a href="/" onClick={openSurvey}>Encuesta</a>
         </li>
       </ul>
     </nav>
