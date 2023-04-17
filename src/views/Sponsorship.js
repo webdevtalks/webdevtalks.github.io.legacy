@@ -36,7 +36,7 @@ const data = {
 function Sponsorship() {
   return (
     <div className="sponsorship">
-      <NavBar />
+      <NavBar selected="sponsorship" />
       <div className="logo-wrapper">
         <img src={logo} className="logo" alt="Logo WDT" />
       </div>
@@ -58,7 +58,7 @@ function Sponsorship() {
         </div>
         <h2>Video de WebDevTalks</h2>
         <center>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3kLz1Q0myiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/3kLz1Q0myiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </center>
         <h2>Venues</h2>
         <p>
@@ -129,11 +129,11 @@ function Sponsorship() {
             <tbody>
                 <tr>
                     <td>Gold</td>
-                    <td>$3,000 MXN por 3 meses</td>
+                    <td>$3,450 MXN por 3 meses</td>
                 </tr>
                 <tr>
                     <td>Silver</td>
-                    <td>$2,100 MXN por 3 meses</td>
+                    <td>$2,200 MXN por 3 meses</td>
                 </tr>
             </tbody>
         </table>
@@ -146,11 +146,11 @@ function Sponsorship() {
             <tbody>
                 <tr>
                     <td>Gold</td>
-                    <td>$1,150 MXN por mes</td>
+                    <td>$1,300 MXN por mes</td>
                 </tr>
                 <tr>
                     <td>Silver</td>
-                    <td>$750 MXN por mes</td>
+                    <td>$850 MXN por mes</td>
                 </tr>
             </tbody>
         </table>

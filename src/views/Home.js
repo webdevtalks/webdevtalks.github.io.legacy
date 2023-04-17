@@ -5,7 +5,9 @@ function Home() {
   return (
     <div className="home">
       <NavBar />
-      <img src={logo} className="logo" alt="Logo WDT" />
+      <div className="logo-wrapper">
+        <img src={logo} className="logo" alt="Logo WDT" />
+      </div>
       <ul className="social-icons">
         <li>
           <a href="https://www.facebook.com/ColimaWebDevTalks" target="_blank"><i className="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a>

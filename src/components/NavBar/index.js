@@ -1,18 +1,30 @@
-function NavBar() {
+import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png';
+// import { slide as Menu } from 'react-burger-menu'
+
+function NavBar({ selected = null }) {
   return (
-    <nav>
+    <>
+      <nav>
         <ul>
-          <li>
-            <a href="/">Home</a>
+          <li className="home-li">
+            <Link to="/">
+              <div className="wdt-leters"></div>
+            </Link>
           </li>
           <li>
-            <a href="/sponsorship">¿Te interesa patrocinar?</a>
+            <Link to="/sponsorship">¿Te interesa patrocinar?</Link>
           </li>
-          {/* <li>
-            <a href="/about">Acerca de WDT</a>
-          </li> */}
+          <li>
+            <Link to="/about">Acerca de nosotros</Link>
+          </li>
         </ul>
-    </nav>
+        {/* <Menu right width={ 280 }>
+          <Link className="menu-item" to="/sponsorship">¿Te interesa patrocinar?</Link>
+          <Link className="menu-item" to="/about">Acerca de nosotros</Link>
+        </Menu> */}
+      </nav>
+    </>
   )
 }
 
