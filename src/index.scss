@@ -21,9 +21,21 @@ body {
 }
 
 select {
-  width: 100px;
-  border-radius: 10px;
-  background-color: white;
+  border: none;
+  font-family: sans-serif;
+  display: inline-block;
+  font-size: 100%;
+  width: 100%;
+  padding: 15px;
+  &:hover {
+    background-color: rgba(#3398CB, 10%);
+    transition: 0.3s;
+    color: white;
+  }
+  &:focus {
+    outline: none;
+  }
+  color: #333;
 }
 
 .home {

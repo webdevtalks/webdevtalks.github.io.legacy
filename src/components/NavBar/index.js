@@ -27,8 +27,8 @@ function NavBar({ selected = null }) {
           <li>
             <a href="/" onClick={openSurvey}>{t("navbar.survey", "Encuesta")}</a>
           </li>
+          <li><LanguageSelector/></li>
         </ul>
-        <LanguageSelector/>
         {/* <Menu right width={ 280 }>
           <Link className="menu-item" to="/sponsorship">¿Te interesa patrocinar?</Link>
           <Link className="menu-item" to="/about">Acerca de nosotros</Link>
