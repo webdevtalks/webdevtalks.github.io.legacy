@@ -1,5 +1,6 @@
 import logo from '../assets/images/logo.png';
 import NavBar from '../components/NavBar';
+import { useTranslation } from 'react-i18next';
 
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
@@ -34,6 +35,7 @@ const data = {
   };
 
 function Sponsorship() {
+    const { t } = useTranslation();
   return (
     <div className="sponsorship">
       <NavBar selected="sponsorship" />
@@ -42,27 +44,27 @@ function Sponsorship() {
       </div>
       <section>
         <p>
-            WebDevTalks es una comunidad de desarrollo y tecnología, que inició hace más de 7 años con la finalidad de acercar desarrolladores a diversos temas dentro del área del desarrollo de software, web, móvil, IoT, manejo de proyectos, diseño y más.
+            {t("sponsorship.description1","WebDevTalks es una comunidad de desarrollo y tecnología, que inició hace más de 10 años con la finalidad de acercar desarrolladores a diversos temas dentro del área del desarrollo de software, web, móvil, IoT, manejo de proyectos, diseño y más.")}
         </p>
         <p>
-            Gracias al esfuerzo y apoyo de diversas empresas hemos podido llegar hasta el día de hoy, proporcionando un evento de calidad, ayudando a incentivar a las nuevas generaciones y fortalecer la comunidad de desarrollo en la ciudad de Colima.
+            {t("sponsorship.description2","Gracias al esfuerzo y apoyo de diversas empresas hemos podido llegar hasta el día de hoy, proporcionando un evento de calidad, ayudando a incentivar a las nuevas generaciones y fortalecer la comunidad de desarrollo en la ciudad de Colima.")}
         </p>
         <p>
-            El evento se lleva a cabo en el último miércoles de cada mes donde por medio de una sesión 3 personas exponen sobre cualquier tema en el desarrollo. Donde generalmente intentamos balancear las pláticas en 3 distintos niveles: Novatos, Proficientes y Avanzados. Esto para seguir teniendo atracción no solo por estudiantes o neófitos sino también para atraer a asistentes con experiencia y tener una comunidad más enriquecida.
+            {t("sponsorship.description3","El evento se lleva a cabo en el último miércoles de cada dos meses donde por medio de una sesión 3 personas exponen sobre cualquier tema en el desarrollo. Donde generalmente intentamos balancear las pláticas en 3 distintos niveles: Novatos, Proficientes y Avanzados. Esto para seguir teniendo atracción no solo por estudiantes o neófitos sino también para atraer a asistentes con experiencia y tener una comunidad más enriquecida.")}
         </p>
-        <h2>Perfil de Asistentes</h2>
+        <h2>{t("sponsorship.attendeesTitle","Perfil de Asistentes")}</h2>
         <div className="chart-wrapper">
             <div className="chart">
                 <Pie data={data} />
             </div>
         </div>
-        <h2>Video de WebDevTalks</h2>
+        <h2>{t("sponsorship.wdtVideo","Video de WebDevTalks")}</h2>
         <center>
             <iframe width="100%" height="400" src="https://www.youtube.com/embed/3kLz1Q0myiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </center>
         <h2>Venues</h2>
         <p>
-            Intentamos rotar el lugar donde se hace el evento, varias empresas y asociaciones nos han ayudado colaborando y proporcionando sus oficinas y espacios para llevar el evento a cabo.
+            {t("sponsorship.venues","Intentamos rotar el lugar donde se hace el evento, varias empresas y asociaciones nos han ayudado colaborando y proporcionando sus oficinas y espacios para llevar el evento a cabo.")}
         </p>
         <h2>Planes de patrocinio</h2>
         <p>

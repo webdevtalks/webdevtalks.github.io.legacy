@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "sponsorship": "Are you interested in sponsoring?",
+        "aboutUs": "About us",
+        "survey": "Survey"
+    },
+    "sponsorship": {
+        "description1": "WebDevTalks is a community of development and technology that began over 10 years ago with the aim of bringing developers closer to various topics within the field of software development, web, mobile, IoT, project management, design, and more.",
+        "description2": "Thanks to the effort and support of various companies, we've been able to reach today, providing a quality event, helping to incentivize new generations, and strengthening the development community in the city of Colima.",
+        "description3": "The event takes place on the last Wednesday of every two months, where, through a session, three speakers present on any topic in development. We usually aim to balance the talks across three different levels: Novices, Proficient, and Advanced. This is to continue attracting not only students or beginners but also to draw attendees with experience and have a more enriched community.",
+        "attendeesTitle": "Attendee Profile",
+        "wdtVideo": "WebDevTalks Video (Audio on Spanish)",
+        "venues": "We try to rotate the location where the event takes place. Several companies and associations have helped us by collaborating and providing their offices and spaces to carry out the event."
+    }
+}

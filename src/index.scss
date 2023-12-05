@@ -20,6 +20,12 @@ body {
   background: white;
 }
 
+select {
+  width: 100px;
+  border-radius: 10px;
+  background-color: white;
+}
+
 .home {
   .logo-wrapper {
     display: flex;
