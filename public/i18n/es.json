@@ -10,6 +10,30 @@
         "description3": "El evento se lleva a cabo en el último miércoles de cada dos meses donde por medio de una sesión 3 personas exponen sobre cualquier tema en el desarrollo. Donde generalmente intentamos balancear las pláticas en 3 distintos niveles: Novatos, Proficientes y Avanzados. Esto para seguir teniendo atracción no solo por estudiantes o neófitos sino también para atraer a asistentes con experiencia y tener una comunidad más enriquecida.",
         "attendeesTitle": "Perfil de Asistentes",
         "wdtVideo": "Video de WebDevTalks",
-        "venues": "Intentamos rotar el lugar donde se hace el evento, varias empresas y asociaciones nos han ayudado colaborando y proporcionando sus oficinas y espacios para llevar el evento a cabo."
+        "venues": "Intentamos rotar el lugar donde se hace el evento, varias empresas y asociaciones nos han ayudado colaborando y proporcionando sus oficinas y espacios para llevar el evento a cabo.",
+        "sponsorshipPlans": "Planes de patrocinio",
+        "sponsorshipPlansBody": "Con el ideal de seguir mejorando la comunidad, WebDevTalks busca patrocinio y ofrece las siguientes modalidades:",
+        "areas": "Otras areas",
+        "design": "Diseño",
+        "students": "Estudiantes",
+        "sponsorshipGold1": "5 minutos durante la sesión bimestral (Para hablar de la empresa, promocionar vacantes, workshops, etc).",
+        "sponsorshipGold2": "Compartir FB/IG posts y tweets de los patrocinadores (5 shares/retweets), lo cual incluye: (Vacantes lanzadas en redes sociales, Talleres y Cursos, Noticias)",
+        "sponsorshipSilver1": "Compartir FB/IG posts y tweets de los patrocinadores (2 shares/retweets), lo cual incluye: (Vacantes lanzadas en redes sociales, Talleres y Cursos, Noticias)",
+        "sponsorshipGold3": "Espacio para Booth en el lugar",
+        "sponsorshipGold4": "Promoción durante la campaña de promoción de la sesión bimestral en las redes sociales de WebDevTalks. (Facebook, Twitter, Instagram, Linkedin)",
+        "sponsorshipGold5": "Promoción de su logo durante la sesión bimestral.",
+        "sponsorshipGold6": "Agradecimiento por redes sociales después del evento bimestral como patrocinador {{level}}",
+        "sponsor": "Patrocinio",
+        "contribution": "Contribución",
+        "gold3sesionsCost": "{{peso}} por 3 eventos.",
+        "silver3sesionsCost": "{{peso}} por 3 eventos.",
+        "costs": "Costos de patrocinio",
+        "monthlyPlan": "Pago por evento:",
+        "goldSesionCost": "{{peso}} por evento.",
+        "silverSesionCost": "{{peso}} por evento.",
+        "contact": "Para cualquier duda o aclaración puede dirigirse a"
+    },
+    "aboutUs": {
+        "quote": "“Desde tiempos ancestrales la sociedad ha funcionado como una especie social. Hemos tenido la capacidad de organizarnos en grupos dependiendo de nuestros objetivos e intereses. Así que una comunidad no es algo nuevo, pero sí algo que hoy deberíamos considerar para un crecimiento con mayor potencial.” - Adriana Reyes"
     }
 }

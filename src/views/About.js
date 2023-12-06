@@ -3,8 +3,10 @@ import image1 from '../assets/images/78743416_2588340067930838_90252978861490831
 import image2 from '../assets/images/28378086_1616056785159176_862979226448649839_n.jpeg';
 import image3 from '../assets/images/88950387_2784083098356533_6828161491334594560_n.jpeg';
 import image4 from '../assets/images/87738062_2784085668356276_3167127129091473408_n.jpeg';
+import { useTranslation } from 'react-i18next';
 
 function About() {
+  const { t } = useTranslation();
   return (
     <div className="about">
       <NavBar selected="about" />
@@ -12,7 +14,7 @@ function About() {
       <section>
         <h1 className="text-centered">Web Dev Talks</h1>
         <p>
-          “Desde tiempos ancestrales la sociedad ha funcionado como una especie social. Hemos tenido la capacidad de organizarnos en grupos dependiendo de nuestros objetivos e intereses. Así que una comunidad no es algo nuevo, pero sí algo que hoy deberíamos considerar para un crecimiento con mayor potencial.” - Adriana Reyes
+          {t("aboutUs.quote","“Desde tiempos ancestrales la sociedad ha funcionado como una especie social. Hemos tenido la capacidad de organizarnos en grupos dependiendo de nuestros objetivos e intereses. Así que una comunidad no es algo nuevo, pero sí algo que hoy deberíamos considerar para un crecimiento con mayor potencial.” - Adriana Reyes")}
         </p>
         <img src={image1} alt="" width="100%" />
         <h2 className="text-centered">¿Qué y quiénes son Web Dev Talks?</h2>
