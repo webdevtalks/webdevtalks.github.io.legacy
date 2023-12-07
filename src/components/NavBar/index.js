@@ -1,10 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 // import logo from '../../assets/images/logo.png';
 import { useSurvey } from '../../hooks/useSurvey'
 // import { slide as Menu } from 'react-burger-menu'
+import { LanguageSelector } from '../LanguageSelector';
 
 function NavBar({ selected = null }) {
   const { openSurvey } = useSurvey()
+  const { t } = useTranslation();
+  
   return (
     <>
       <nav>
@@ -15,14 +19,15 @@ function NavBar({ selected = null }) {
             </Link>
           </li>
           <li>
-            <Link to="/sponsorship">¿Te interesa patrocinar?</Link>
+            <Link to="/sponsorship">{t("navbar.sponsorship", "¿Te interesa patrocinar?")}</Link>
           </li>
           <li>
-            <Link to="/about">Acerca de nosotros</Link>
+            <Link to="/about">{t("navbar.aboutUs", "Acerca de nosotros")}</Link>
           </li>
           <li>
-            <a href="/" onClick={openSurvey}>Encuesta</a>
+            <a href="/" onClick={openSurvey}>{t("navbar.survey", "Encuesta")}</a>
           </li>
+          <li><LanguageSelector/></li>
         </ul>
         {/* <Menu right width={ 280 }>
           <Link className="menu-item" to="/sponsorship">¿Te interesa patrocinar?</Link>
