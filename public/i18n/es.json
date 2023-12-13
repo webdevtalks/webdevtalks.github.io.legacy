@@ -27,11 +27,16 @@
         "contribution": "Contribución",
         "gold3sesionsCost": "{{peso}} por 3 eventos.",
         "silver3sesionsCost": "{{peso}} por 3 eventos.",
+        "goldAnualCost": "{{peso}} por año.",
+        "silverAnualCost": "{{peso}} por año.",
         "costs": "Costos de patrocinio",
         "monthlyPlan": "Pago por evento:",
+        "trimestralPlan": "Pago por 3 eventos:",
+        "anualPlan": "Plan anual:",
         "goldSesionCost": "{{peso}} por evento.",
         "silverSesionCost": "{{peso}} por evento.",
-        "contact": "Para cualquier duda o aclaración puede dirigirse a"
+        "contact": "Para cualquier duda o aclaración puede dirigirse a",
+        "tax": "Todos nuestros precios incluyen IVA."
     },
     "aboutUs": {
         "quote": "“Desde tiempos ancestrales la sociedad ha funcionado como una especie social. Hemos tenido la capacidad de organizarnos en grupos dependiendo de nuestros objetivos e intereses. Así que una comunidad no es algo nuevo, pero sí algo que hoy deberíamos considerar para un crecimiento con mayor potencial.”",

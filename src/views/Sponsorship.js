@@ -124,7 +124,8 @@ function Sponsorship() {
                     </tr>
                 </tbody>
             </table>
-            <h3>{t("sponsorship.costs","Costos de patrocinio")}</h3>
+            <h2>{t("sponsorship.costs","Costos de patrocinio")}</h2>
+            <h3>{t("sponsorship.anualPlan","Plan anual:")}</h3>
             <table>
                 <thead>
                     <td>{t("sponsorship.sponsor","Patrocinio")}</td>
@@ -133,11 +134,28 @@ function Sponsorship() {
                 <tbody>
                     <tr>
                         <td>Gold</td>
-                        <td>{t("sponsorship.gold3sesionsCost",{ dolar: "$250 USD", peso: "$3,500 MXN" }, "$3,500 MXN por 3 eventos")}</td>
+                        <td>{t("sponsorship.goldAnualCost",{ dolar: "$510 USD", peso: "$8,874 MXN" }, "$8,874 MXN por año")}</td>
                     </tr>
                     <tr>
                         <td>Silver</td>
-                        <td>{t("sponsorship.silver3sesionsCost",{ dolar: "$150 USD", peso: "$2,500 MXN" }, "$2,500 MXN por 3 eventos")}</td>
+                        <td>{t("sponsorship.silverAnualCost",{ dolar: "$340 USD", peso: "$5,916 MXN" }, "$5,916 MXN por año")}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>{t("sponsorship.trimestralPlan","Pago por 3 eventos:")}</h3>
+            <table>
+                <thead>
+                    <td>{t("sponsorship.sponsor","Patrocinio")}</td>
+                    <td>{t("sponsorship.contribution","Contribución")}</td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gold</td>
+                        <td>{t("sponsorship.gold3sesionsCost",{ dolar: "$270 USD", peso: "$4,698 MXN" }, "$4,698 MXN por 3 eventos")}</td>
+                    </tr>
+                    <tr>
+                        <td>Silver</td>
+                        <td>{t("sponsorship.silver3sesionsCost",{ dolar: "$180 USD", peso: "$3,132 MXN" }, "$3,132 MXN por 3 eventos")}</td>
                     </tr>
                 </tbody>
             </table>
@@ -150,14 +168,15 @@ function Sponsorship() {
                 <tbody>
                     <tr>
                         <td>Gold</td>
-                        <td>{t("sponsorship.goldSesionCost",{ dolar: "$100 USD", peso: "$1,500 MXN" }, "$1,500 MXN por evento")}</td>
+                        <td>{t("sponsorship.goldSesionCost",{ dolar: "$100 USD", peso: "$1,740 MXN" }, "$1,740 MXN por evento")}</td>
                     </tr>
                     <tr>
                         <td>Silver</td>
-                        <td>{t("sponsorship.silverSesionCost",{ dolar: "$80 USD", peso: "$1,000 MXN" }, "$1,000 MXN por evento")}</td>
+                        <td>{t("sponsorship.silverSesionCost",{ dolar: "$70 USD", peso: "$1,160 MXN" }, "$1,160 MXN por evento")}</td>
                     </tr>
                 </tbody>
             </table>
+            <p><b>{t("sponsorship.tax","Todos nuestros precios incluyen IVA.")}</b></p>
             <p>{t("sponsorship.contact","Para cualquier duda o aclaración puede dirigirse a")} <a href="mailto:contacto@webdevtalks.mx">contacto@webdevtalks.mx</a></p>
         </section>
         </div>
