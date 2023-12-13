@@ -27,11 +27,16 @@
         "contribution": "Contribution",
         "gold3sesionsCost": "{{dolar}} per 3 events.",
         "silver3sesionsCost": "{{dolar}} per 3 events.",
+        "goldAnualCost": "{{dolar}} per year.",
+        "silverAnualCost": "{{dolar}} per year.",
         "costs": "Sponsorship costs",
         "monthlyPlan": "Pay per event:",
+        "trimestralPlan": "Pay per 3 events:",
+        "anualPlan": "Annual Plan:",
         "goldSesionCost": "{{dolar}} per event.",
         "silverSesionCost": "{{dolar}} per event.",
-        "contact": "For any questions or clarifications, you can reach out to"
+        "contact": "For any questions or clarifications, you can reach out to",
+        "tax": "Our prices includes taxes (VAT)."
     },
     "aboutUs": {
         "quote": "“Since ancient times, society has functioned as a social species. We've had the ability to organize ourselves into groups based on our goals and interests. So, a community isn't something new, but it is something we should consider today for a growth with greater potential.”",
