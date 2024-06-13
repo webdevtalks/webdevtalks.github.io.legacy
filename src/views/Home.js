@@ -12,7 +12,7 @@ function Home() {
         <li>
           <a href="https://www.facebook.com/ColimaWebDevTalks" target="_blank"><i className="fa fa-facebook-official fa-4x" aria-hidden="true"></i></a>
         </li>
-        
+
         <li>
           <a href="https://www.instagram.com/webdevtalksmx" target="_blank"><i className="fa fa-instagram fa-4x" aria-hidden="true"></i></a>
         </li>
@@ -23,6 +23,10 @@ function Home() {
 
         <li>
           <a href="https://www.linkedin.com/company/web-dev-talks" target="_blank"><i className="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
+        </li>
+
+        <li>
+          <a href="https://patreon.com/WebDevTalksColima" target="_blank"><i className="fa-brands fa-patreon fa-4x" aria-hidden="true"></i></a>
         </li>
 
         <li>
