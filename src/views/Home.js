@@ -18,7 +18,7 @@ function Home() {
         </li>
 
         <li>
-          <a href="https://twitter.com/webdevtalksmx" target="_blank"><i className="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/webdevtalksmx" target="_blank"><i className="fa-brands fa-x-twitter fa-4x" aria-hidden="true"></i></a>
         </li>
 
         <li>
